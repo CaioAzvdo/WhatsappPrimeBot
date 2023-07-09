@@ -39,7 +39,7 @@ venom
           ''
         )
         client
-          .sendText(message.from, 'Olá 👋! Meu nome é *PrimeBot*🤖, sou *assistente virtual* da *Loja Prime!*\n*-Digite 1 para ver nossas capinhas*\n*-Digite 2 para ver os Carregadores*\n*-Digite 10 para falar com um atendente*\n*-Digite # para um Easter Egg*\n \n Nosso horário de funcionamento: 08:00 até as 21:00')
+          .sendText(message.from, 'Olá 👋! Meu nome é *PrimeBot*🤖, sou *assistente virtual* da *Loja Prime!*\n*-Digite 1 para ver nossas capinhas*📱\n*-Digite 2 para ver os Carregadores*\n*-Digite 10 para falar com um atendente*👦\n*-Digite # para um Easter Egg*\n \n Nosso horário de funcionamento: 08:00 até as 21:00')
         
       }
 
