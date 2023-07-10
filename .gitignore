@@ -1,1 +1,4 @@
-tokens/Botzin/Default/Cache/Cache_Data/data_0
+tokens/Botzin/Default/Cache/
+tokens/
+tokens/Botzin/Default/Cache/Cache_Data/index
+git rm --cached -r ./tokens/
