@@ -45,24 +45,46 @@ venom
       if(message.body==='iphone' && message.isGroupMsg===false){
         client.sendText(message.from, '*Informe o modelo do seu Iphone:*\n-Iphone x\n-Iphone 11\n-Iphone 12\n-Iphone 13\n-Iphone 14\netc...')
       }
-      if(message.body==='iphone13' || message.body==='iphone13' && message.isGroupMsg===false){
+      if(message.body==='iphone14' || message.body==='iphone 14' && message.isGroupMsg===false){
+        client.sendText(message.from, '*Lista de capinhas do Iphone 14:*')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone14/case1.jpeg', 'foto', 'CASE 14 PRO. 40,00$')
+
+
+      }
+      if(message.body==='iphone 13' || message.body==='iphone13' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Iphone 13:*')
         client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone13/case1.jpeg', 'foto', 'CAPA TRANSPARENTE IPHONE 13 PRO MAX VALOR: 50,00$  ')
+      }
+      if(message.body==='iphone 12' || message.body==='iphone12' && message.isGroupMsg===false){
+        client.sendText(message.from, '*Lista de capinhas do Iphone 12:*')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone12/case1.jpeg', 'foto', 'CAPA IPHONE 12 PRO MAX. 40,00$')
+        
       }
       if(message.body ==='iphone11' || message.body === 'iphone 11' && message.isGroupMsg ===false){
         client.sendText(message.from, '*Lista de capinhas do Iphone 11:*')
         client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone11/case1.jpeg', 'foto', 'CAPA TRANSPARENTE IPHONE 11PRO VALOR: 40,00$')
         client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone11/case2.jpeg', 'foto', '')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone11/case3.jpeg', 'foto', 'CAPA IPHONE 11 PRO MAX. 40,00$')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone11/case4.jpeg', 'foto', 'CAPA IPHONE 11 PRO MAX. 40,00$')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone11/case5.jpeg', 'foto', 'CAPA IPHONE 11. 30,00$')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone11/case6.jpeg', 'foto', 'CAPA IPHONE 11 PRO MAX. 40,00$')
+
         
       }
       
       if(message.body ==='iphone7' || message.body === 'iphone 7' && message.isGroupMsg ===false){
         client.sendText(message.from, '*Lista de capinhas do Iphone 7:*')
         client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone7/case1.jpeg', 'foto', '')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone7/case2.jpeg', 'foto', 'CAPA IPHONE 7/8 PLUS. 30,00$')
       }
       if(message.body ==='iphonexr' || message.body === 'iphone xr' || message.body==='iphone x' || message.body==='iphonex' && message.isGroupMsg ===false){
         client.sendText(message.from, '*Lista de capinhas do Iphone X e Xr:*')
         client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphonexr/case1.jpeg', 'foto', '')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphonexr/case2.jpeg', 'foto', 'CAPA IPHONE XR. 30,00$')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphonexr/case3.jpeg', 'foto', 'CAPA IPHONE XR. 40,00$')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphonexr/case4.jpeg', 'foto', 'CAPA IPHONE XS MAX. 40,00$')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphonexr/case5.jpeg', 'foto', 'CAPA IPHONE XS MAX. 40,00$')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphonexr/case6.jpeg', 'foto', 'CAPA IPHONE XS. 40,00$') 
       }
 
 
