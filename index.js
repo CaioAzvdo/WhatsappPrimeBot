@@ -3,7 +3,7 @@ const { cli } = require('webpack');
 
 venom
   .create({
-    session: 'PrimeBot' //name of session
+    session: 'PrimeBot1' //name of session
   })
   .then((client) => start(client))
   .catch((erro) => {
@@ -49,6 +49,10 @@ venom
         client.sendText(message.from, '*Lista de capinhas do Samsung S21 Ultra*')
         client.sendImage(message.from, './assets/imgs/capinhas/samsung/s21ultra/case1.jpeg', 'foto', 'Capinha Samsung S21 Ultra R$25,00')
       }
+      if(message.body==='samsung s21 fe' || message.body==='samsungs21 fe' || message.body==='s21 fe' && message.isGroupMsg===false){
+        client.sendText(message.from, '*Lista de capinhas do Samsung S21 FE*')
+        client.sendImage(message.from, './assets/imgs/capinhas/samsung/s21fe/case1.jpeg', 'foto', 'Capinha Samsung S21 Ultra R$25,00')
+      }
       if(message.body==='samsung m23' || message.body==='samsungm23' || message.body==='samsumg m13' || message.body==='samsumgm13' ||message.body==='m13' ||message.body==='m23' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Samsung M23 e M13*')
         client.sendImage(message.from, './assets/imgs/capinhas/samsung/m23&m13/case1.jpeg', 'foto', 'Capinha Samsung M23/M13 R$20,00')
@@ -81,6 +85,11 @@ venom
       if(message.body==='mi note 11' || message.body==='note 11' || message.body==='xiaomi mi note 11' || message.body==='redmi note 11' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Redmi Note 11:*')
         client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/note11/case1.jpeg', 'foto', 'Capinha Note 11 R$20,00')
+
+      }
+      if(message.body==='mi note 8' || message.body==='note 8' || message.body==='xiaomi mi note 8' || message.body==='redmi note 8' && message.isGroupMsg===false){
+        client.sendText(message.from, '*Lista de capinhas do Redmi Note 8:*')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/note8/case1.jpeg', 'foto', 'Capinha Note 8 R$25,00')
 
       }
       if(message.body==='poco x3 pro' || message.body==='x3 pro' || message.body==='poco x3' && message.isGroupMsg===false){
@@ -132,8 +141,21 @@ venom
       if(message.body==='iphone14' || message.body==='iphone 14' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Iphone 14:*')
         client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone14/case1.jpeg', 'foto', 'CASE 14 PRO. 40,00$')
-
-
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone14/case2.jpeg', 'foto', 'CASE 14 PRO. 40,00$')
+      }
+      if(message.body==='iphone14 max' || message.body==='iphone 14 max' && message.isGroupMsg===false){
+        client.sendText(message.from, '*Lista de capinhas do Iphone 14 Max:*')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone14max/case1.jpeg', 'foto', 'CASE 14 Max. 40,00$')
+      }
+      if(message.body==='iphone14 pro' || message.body==='iphone 14 pro' && message.isGroupMsg===false){
+        client.sendText(message.from, '*Lista de capinhas do Iphone 14 Pro:*')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone14pro/case1.jpeg', 'foto', 'CASE 14 PRO. 40,00$')
+      }
+      if(message.body==='iphone 13 pro max' || message.body==='iphone13 pro max' || message.body==='13 promax' && message.isGroupMsg===false){
+        client.sendText(message.from, '*Lista de capinhas do Iphone 13 Pro Max:*')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone13promax/case1.jpeg', 'foto', 'CAPA IPHONE 13 PRO MAX VALOR: 25,00$  ')
+        client.sendImage(message.from, './assets/imgs/capinhas/iphone/iphone13promax/case2.jpeg', 'foto', 'CAPA IPHONE 13 PRO MAX VALOR: 25,00$  ')
+        
       }
       if(message.body==='iphone 13' || message.body==='iphone13' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Iphone 13:*')
@@ -155,6 +177,7 @@ venom
 
         
       }
+      
       
       if(message.body ==='iphone7 plus' || message.body === 'iphone 7 plus' || message.body ==='iphone8 plus' || message.body === 'iphone 8 plus' && message.isGroupMsg ===false){
         client.sendText(message.from, '*Lista de capinhas do Iphone 7/8 Plus:*')

@@ -7,8 +7,6 @@ function capinhasIphone11(){
   )
   client.sendImage(
     message.from,
-    './iphoneCapinhas2.jpeg',
-    'foto',
     ''
   )
   client.sendImage(
