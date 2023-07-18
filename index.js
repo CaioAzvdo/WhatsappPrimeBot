@@ -41,22 +41,15 @@ venom
         client.sendImage(message.from, './assets/imgs/capinhas/samsung/g10/case1.jpeg', 'foto', 'Capinha Samsung G10 R$25,00')
         client.sendImage(message.from, './assets/imgs/capinhas/samsung/g10/case2.jpeg', 'foto', 'Capinha Samsung G10 R$15,00')
       }
-      // if(message.body==='samsung a20' || message.body==='samsunga20' && message.isGroupMsg===false){
-      //   client.sendText(message.from, '*Lista de capinhas do Samsung A20*')
-      //   client.sendImage(message.from, './assets/imgs/capinhas/samsung/samsung1.jpeg', 'foto', 'Capinha Samsung A10 R$12,00')
-      //   client.sendImage(message.from, './assets/imgs/capinhas/samsung/samsung2.jpeg', 'foto', 'Capinha Samsung A20 R$12,00')
-      //   client.sendImage(message.from, './assets/imgs/capinhas/samsung/samsung3.jpeg', 'foto', 'Capinha Samsung A30 R$12,00')
-      //   client.sendImage(message.from, './assets/imgs/capinhas/samsung/samsung4.jpeg', 'foto', 'Capinha Samsung A50 R$12,00')
-      // }
-      if(message.body==='samsung a71 ultra' || message.body==='samsunga71 ultra' && message.isGroupMsg===false){
-        client.sendText(message.from, '*Lista de capinhas do Samsung A71 Ultra*')
-        client.sendImage(message.from, './assets/imgs/capinhas/samsung/s21ultra/case1.jpeg', 'foto', 'Capinha Samsung S21 Ultra R$25,00')
+      if(message.body==='samsung a71' || message.body==='samsunga71' || message.body==='a71' && message.isGroupMsg===false){
+        client.sendText(message.from, '*Lista de capinhas do Samsung A71:*')
+        client.sendImage(message.from, './assets/imgs/capinhas/samsung/a71/case1.jpeg', 'foto', 'Capinha Samsung A71 R$25,00')
       }
-      if(message.body==='samsung s21 ultra' || message.body==='samsungs21 ultra' && message.isGroupMsg===false){
+      if(message.body==='samsung s21 ultra' || message.body==='samsungs21 ultra' || message.body==='s21 ultra' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Samsung S21 Ultra*')
         client.sendImage(message.from, './assets/imgs/capinhas/samsung/s21ultra/case1.jpeg', 'foto', 'Capinha Samsung S21 Ultra R$25,00')
       }
-      if(message.body==='samsung m23' || message.body==='samsungm23' || message.body==='samsumg m13' || message.body==='samsumgm13' && message.isGroupMsg===false){
+      if(message.body==='samsung m23' || message.body==='samsungm23' || message.body==='samsumg m13' || message.body==='samsumgm13' ||message.body==='m13' ||message.body==='m23' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Samsung M23 e M13*')
         client.sendImage(message.from, './assets/imgs/capinhas/samsung/m23&m13/case1.jpeg', 'foto', 'Capinha Samsung M23/M13 R$20,00')
         client.sendImage(message.from, './assets/imgs/capinhas/samsung/m23&m13/case2.jpeg', 'foto', 'Capinha Samsung M23/M13 R$15,00')
@@ -69,70 +62,65 @@ venom
         client.sendText(message.from, '*Informe o modelo do seu Motorola:*\n-Moto G7\n-Moto G8\n-Moto One Fusion\netc...')
         
       }
-      if(message.body==='motorola one fusion' || messaege.body==='motorolaone fusion' && message.isGroupMsg===false){
+      if(message.body==='motorola one fusion' || message.body==='motorolaone fusion' || message.body==='one fusion' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Motorola One Fusion:*')
         client.sendImage(message.from, './assets/imgs/capinhas/motorola/onefusion/case1.jpeg', 'foto', 'Capinha Motorola One Fusion R$20,00')
 
       }
-      if(message.body==='motorola g8 power lite' || messaege.body==='motorolag8 power lite' && message.isGroupMsg===false){
+      if(message.body==='motorola g8 power lite' || message.body==='motorolag8 power lite' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Motorola G8 Lite:*')
         client.sendImage(message.from, './assets/imgs/capinhas/motorola/g8powerlite/case1.jpeg', 'foto', 'Capinha Motorola G8 Power Lite R$20,00')
 
       }
 
-
-      if(message.body==='xioami' && message.isGroupMsg===false){
-        client.sendText(message.from, '*Informe o modelo do seu Xioami:*\n-Mi note 11\n-Poco X3 Pro\n-Redmi A11\netc...')
+      if(message.body==='xiaomi' && message.isGroupMsg===false){
+        client.sendText(message.from, '*Informe o modelo do seu xiaomi:*\n-Mi note 11\n-Poco X3 Pro\n-Redmi A11\netc...')
         
       }
 
-      if(message.body==='mi note 11' || messaege.body==='note 11' || message.body==='xioami mi note 11' || message.body==='redmi note 11' && message.isGroupMsg===false){
+      if(message.body==='mi note 11' || message.body==='note 11' || message.body==='xiaomi mi note 11' || message.body==='redmi note 11' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Redmi Note 11:*')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/note11/case1.jpeg', 'foto', 'Capinha Note 11 R$20,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/note11/case1.jpeg', 'foto', 'Capinha Note 11 R$20,00')
 
       }
-      if(message.body==='poco x3 pro' || messaege.body==='x3 pro' || message.body==='poco x3' && message.isGroupMsg===false){
+      if(message.body==='poco x3 pro' || message.body==='x3 pro' || message.body==='poco x3' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Poco x3 Pro:*')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/pocox3pro/case1.jpeg', 'foto', 'Capinha Poco X3 Pro R$20,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/pocox3pro/case1.jpeg', 'foto', 'Capinha Poco X3 Pro R$20,00')
 
       }
-      if(message.body==='redmi 10 c' || messaege.body==='red mi10 c' || message.body==='redmi10 c' && message.isGroupMsg===false){
+      if(message.body==='redmi 10 c' || message.body==='red mi10 c' || message.body==='redmi10 c' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Redmi 10 C:*')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/redmi10c/case1.jpeg', 'foto', 'Capinha Redmi 10 C R$20,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/redmi10c/case1.jpeg', 'foto', 'Capinha Redmi 10 C R$20,00')
 
       }
-      if(message.body==='redmi 11' || messaege.body==='red mi 11' || message.body==='redmi11' || message.body==='mi 11' && message.isGroupMsg===false){
+      if(message.body==='redmi 11' || message.body==='red mi 11' || message.body==='redmi11' || message.body==='mi 11' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Redmi 11:*')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/mi11/case1.jpeg', 'foto', 'Capinha Redmi 11 R$20,00')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/mi11/case2.jpeg', 'foto', 'Capinha Redmi 11 R$20,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/mi11/case1.jpeg', 'foto', 'Capinha Redmi 11 R$20,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/mi11/case2.jpeg', 'foto', 'Capinha Redmi 11 R$20,00')
 
       }
 
-      if(message.body==='mi note 9' || messaege.body==='note 9' || message.body==='xioami mi note 9' || message.body==='redmi note 9' && message.isGroupMsg===false){
+      if(message.body==='mi note 9' || message.body==='note 9' || message.body==='xiaomi mi note 9' || message.body==='redmi note 9' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Redmi Note 9:*')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/note9/case1.jpeg', 'foto', 'Capinha Note 11 R$15,00')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/note9/case2.jpeg', 'foto', 'Capinha Note 11 R$20,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/note9/case1.jpeg', 'foto', 'Capinha Note 11 R$15,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/note9/case2.jpeg', 'foto', 'Capinha Note 11 R$20,00')
 
       }
 
-      if(message.body==='redmi 9a' || messaege.body==='red mi 9a' || message.body==='redmi9a' || message.body==='mi 9a' && message.isGroupMsg===false){
+      if(message.body==='redmi 9a' || message.body==='red mi 9a' || message.body==='redmi9a' || message.body==='mi 9a' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Redmi 9a:*')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/redmi9a/case1.jpeg', 'foto', 'Capinha Redmi 9A R$15,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/redmi9a/case1.jpeg', 'foto', 'Capinha Redmi 9A R$15,00')
       }
 
-      if(message.body==='mi 12' || messaege.body==='redmi 12' || message.body==='mi12' || message.body==='redmi12' && message.isGroupMsg===false){
+      if(message.body==='mi 12' || message.body==='redmi 12' || message.body==='mi12' || message.body==='redmi12' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Redmi 12:*')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/mi12/case1.jpeg', 'foto', 'Capinha Note 11 R$15,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/mi12/case1.jpeg', 'foto', 'Capinha Note 11 R$15,00')
       }
-      if(message.body==='mi 12' || messaege.body==='redmi 12' || message.body==='mi12' || message.body==='redmi12' && message.isGroupMsg===false){
-        client.sendText(message.from, '*Lista de capinhas do Redmi 12:*')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/mi12/case1.jpeg', 'foto', 'Capinha Note 11 R$15,00')
-      }
-      if(message.body==='mi note 7' || messaege.body==='note 7' || message.body==='xioami mi note 7' || message.body==='redmi note 7' && message.isGroupMsg===false){
+      
+      if(message.body==='mi note 7' || message.body==='note 7' || message.body==='xiaomi mi note 7' || message.body==='redmi note 7' && message.isGroupMsg===false){
         client.sendText(message.from, '*Lista de capinhas do Redmi Note 7:*')
-        client.sendImage(message.from, './assets/imgs/capinhas/xioami/note7/case1.jpeg', 'foto', 'Capinha Note 11 R$15,00')
+        client.sendImage(message.from, './assets/imgs/capinhas/xiaomi/note7/case1.jpeg', 'foto', 'Capinha Note 11 R$15,00')
         
-
       }
 
 
